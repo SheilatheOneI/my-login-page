@@ -21,7 +21,7 @@ const Login = () => {
     e.preventDefault();
 
     if (!email || !password) {
-      setError("Please fill in all fields.");
+      setError("Please fill in your email and password.");
       return;
     }
     setError("");
